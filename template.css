@@ -1,5 +1,20 @@
 table {
     overflow-x: auto;
-    width: 100%; height: 40%;
 
+}
+
+div.relative {
+    position: relative;
+    width: 1000px;
+    height: auto;
+    border: 4px solid #000000
+}
+
+div.absolute {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    width: 1000px;
+    height: auto;
+    border: 4px solid black
 }
